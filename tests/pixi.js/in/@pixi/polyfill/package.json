@@ -1,0 +1,83 @@
+{
+  "_from": "@pixi/polyfill@6.5.2",
+  "_id": "@pixi/polyfill@6.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-gFEOVOJDB5yAxwF7u1IqobjG4z+/T2Ip4NZXqH1175FLOh49XyeskvtZpbeKz0LC9zCSur3FMsjkosPyLMUQYA==",
+  "_location": "/@pixi/polyfill",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pixi/polyfill@6.5.2",
+    "name": "@pixi/polyfill",
+    "escapedName": "@pixi%2fpolyfill",
+    "scope": "@pixi",
+    "rawSpec": "6.5.2",
+    "saveSpec": null,
+    "fetchSpec": "6.5.2"
+  },
+  "_requiredBy": [
+    "/pixi.js"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pixi/polyfill/-/polyfill-6.5.2.tgz",
+  "_shasum": "159c56e44bb33ade0db8ba62295dedf32beed405",
+  "_spec": "@pixi/polyfill@6.5.2",
+  "_where": "/home/lgirault/dev/perso/leval/test-pixi.js/node_modules/pixi.js",
+  "author": {
+    "name": "Mat Groves"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi.js/issues"
+  },
+  "bundle": "dist/browser/polyfill.js",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Matt Karl",
+      "email": "matt@mattkarl.com"
+    }
+  ],
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^8.2.0"
+  },
+  "deprecated": false,
+  "description": "Support for legacy browser JavaScript environments",
+  "devDependencies": {
+    "@types/object-assign": "^4.0.30",
+    "@types/promise-polyfill": "^6.0.3"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./dist/esm/polyfill.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./dist/cjs/polyfill.js"
+      }
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "*.d.ts"
+  ],
+  "gitHead": "48ab2f2d009bfb541079ef169df79e4174930f0a",
+  "homepage": "http://pixijs.com/",
+  "license": "MIT",
+  "main": "dist/cjs/polyfill.js",
+  "module": "dist/esm/polyfill.mjs",
+  "name": "@pixi/polyfill",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi.js.git"
+  },
+  "standalone": true,
+  "types": "index.d.ts",
+  "version": "6.5.2"
+}

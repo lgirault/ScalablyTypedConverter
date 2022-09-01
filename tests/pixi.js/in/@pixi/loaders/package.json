@@ -1,0 +1,79 @@
+{
+  "_from": "@pixi/loaders@6.5.2",
+  "_id": "@pixi/loaders@6.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pmnz02Lw6FvmH0G/JkOr6iq0XS5v0HNJjepm9t1zK5rsXnpKvLJ7aAQRRR15hTF8Krd83aEISRVrHc2AgGhHRw==",
+  "_location": "/@pixi/loaders",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pixi/loaders@6.5.2",
+    "name": "@pixi/loaders",
+    "escapedName": "@pixi%2floaders",
+    "scope": "@pixi",
+    "rawSpec": "6.5.2",
+    "saveSpec": null,
+    "fetchSpec": "6.5.2"
+  },
+  "_requiredBy": [
+    "/pixi.js"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pixi/loaders/-/loaders-6.5.2.tgz",
+  "_shasum": "0440d57c017961815e1e4bd3dffc6716138474ca",
+  "_spec": "@pixi/loaders@6.5.2",
+  "_where": "/home/lgirault/dev/perso/leval/test-pixi.js/node_modules/pixi.js",
+  "author": {
+    "name": "Mat Groves"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi.js/issues"
+  },
+  "bundle": "dist/browser/loaders.js",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Matt Karl",
+      "email": "matt@mattkarl.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "Load assets and resources",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./dist/esm/loaders.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./dist/cjs/loaders.js"
+      }
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "*.d.ts"
+  ],
+  "gitHead": "48ab2f2d009bfb541079ef169df79e4174930f0a",
+  "homepage": "http://pixijs.com/",
+  "license": "MIT",
+  "main": "dist/cjs/loaders.js",
+  "module": "dist/esm/loaders.mjs",
+  "name": "@pixi/loaders",
+  "peerDependencies": {
+    "@pixi/constants": "6.5.2",
+    "@pixi/core": "6.5.2",
+    "@pixi/utils": "6.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "6.5.2"
+}

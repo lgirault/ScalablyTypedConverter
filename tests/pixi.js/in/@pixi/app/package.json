@@ -1,0 +1,78 @@
+{
+  "_from": "@pixi/app@6.5.2",
+  "_id": "@pixi/app@6.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-y/d+d9M668fa2ztY16C6xkiYACqZu59f6FOkaIzqClwRz7Ws7xGe6llFUa5d3vN/J/O1l4SyPOlPFjSflj3aOg==",
+  "_location": "/@pixi/app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pixi/app@6.5.2",
+    "name": "@pixi/app",
+    "escapedName": "@pixi%2fapp",
+    "scope": "@pixi",
+    "rawSpec": "6.5.2",
+    "saveSpec": null,
+    "fetchSpec": "6.5.2"
+  },
+  "_requiredBy": [
+    "/pixi.js"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pixi/app/-/app-6.5.2.tgz",
+  "_shasum": "bade3b4deee6fad71f8523fddfee99abbf73bbfe",
+  "_spec": "@pixi/app@6.5.2",
+  "_where": "/home/lgirault/dev/perso/leval/test-pixi.js/node_modules/pixi.js",
+  "author": {
+    "name": "Mat Groves"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi.js/issues"
+  },
+  "bundle": "dist/browser/app.js",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Matt Karl",
+      "email": "matt@mattkarl.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "Convenience class to create a new PixiJS application",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./dist/esm/app.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./dist/cjs/app.js"
+      }
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "*.d.ts"
+  ],
+  "gitHead": "48ab2f2d009bfb541079ef169df79e4174930f0a",
+  "homepage": "http://pixijs.com/",
+  "license": "MIT",
+  "main": "dist/cjs/app.js",
+  "module": "dist/esm/app.mjs",
+  "name": "@pixi/app",
+  "peerDependencies": {
+    "@pixi/core": "6.5.2",
+    "@pixi/display": "6.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "6.5.2"
+}

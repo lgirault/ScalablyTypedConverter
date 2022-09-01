@@ -1,0 +1,81 @@
+{
+  "_from": "@pixi/mesh-extras@6.5.2",
+  "_id": "@pixi/mesh-extras@6.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-fRVPZSOurR0Au1Dm40DOmYMEV4QEMMRv5KiyBobYkpNx36khTTklA1l+7xX+JHVifezXSHSSu248jfbb4PleZg==",
+  "_location": "/@pixi/mesh-extras",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pixi/mesh-extras@6.5.2",
+    "name": "@pixi/mesh-extras",
+    "escapedName": "@pixi%2fmesh-extras",
+    "scope": "@pixi",
+    "rawSpec": "6.5.2",
+    "saveSpec": null,
+    "fetchSpec": "6.5.2"
+  },
+  "_requiredBy": [
+    "/pixi.js"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pixi/mesh-extras/-/mesh-extras-6.5.2.tgz",
+  "_shasum": "b2e15cae46f142c9878f01565377054cf2902470",
+  "_spec": "@pixi/mesh-extras@6.5.2",
+  "_where": "/home/lgirault/dev/perso/leval/test-pixi.js/node_modules/pixi.js",
+  "author": {
+    "name": "Mat Groves"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi.js/issues"
+  },
+  "bundle": "dist/browser/mesh-extras.js",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Matt Karl",
+      "email": "matt@mattkarl.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "Custom Mesh display objects, like Rope and SimplePlane",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./dist/esm/mesh-extras.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./dist/cjs/mesh-extras.js"
+      }
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "*.d.ts"
+  ],
+  "gitHead": "48ab2f2d009bfb541079ef169df79e4174930f0a",
+  "homepage": "http://pixijs.com/",
+  "license": "MIT",
+  "main": "dist/cjs/mesh-extras.js",
+  "module": "dist/esm/mesh-extras.mjs",
+  "name": "@pixi/mesh-extras",
+  "peerDependencies": {
+    "@pixi/constants": "6.5.2",
+    "@pixi/core": "6.5.2",
+    "@pixi/math": "6.5.2",
+    "@pixi/mesh": "6.5.2",
+    "@pixi/utils": "6.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "6.5.2"
+}

@@ -1,0 +1,69 @@
+{
+  "_from": "@pixi/extensions@6.5.2",
+  "_id": "@pixi/extensions@6.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pLCUcDZS9RQsz4AkLYhOB40JB4qSqrAQrWXp8OkQ8bhwNxiI1BupCwh2+cpxdE46iGtH6tgvUWPnuQxq5SfSYw==",
+  "_location": "/@pixi/extensions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pixi/extensions@6.5.2",
+    "name": "@pixi/extensions",
+    "escapedName": "@pixi%2fextensions",
+    "scope": "@pixi",
+    "rawSpec": "6.5.2",
+    "saveSpec": null,
+    "fetchSpec": "6.5.2"
+  },
+  "_requiredBy": [
+    "/pixi.js"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pixi/extensions/-/extensions-6.5.2.tgz",
+  "_shasum": "598f1c563e6af4e8b5294b22679a235eb72dfcb9",
+  "_spec": "@pixi/extensions@6.5.2",
+  "_where": "/home/lgirault/dev/perso/leval/test-pixi.js/node_modules/pixi.js",
+  "author": {
+    "name": "Matt Karl",
+    "email": "matt@mattkarl.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi.js/issues"
+  },
+  "bundle": "dist/browser/extensions.js",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Installing and uninstalling extensions for PixiJS",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./dist/esm/extensions.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./dist/cjs/extensions.js"
+      }
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "*.d.ts"
+  ],
+  "gitHead": "48ab2f2d009bfb541079ef169df79e4174930f0a",
+  "homepage": "http://pixijs.com/",
+  "license": "MIT",
+  "main": "dist/cjs/extensions.js",
+  "module": "dist/esm/extensions.mjs",
+  "name": "@pixi/extensions",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi.js.git"
+  },
+  "types": "index.d.ts",
+  "version": "6.5.2"
+}
